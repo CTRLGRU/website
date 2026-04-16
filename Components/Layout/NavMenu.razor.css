@@ -3,7 +3,7 @@
     cursor: pointer;
     width: 3.5rem;
     height: 2.5rem;
-    color: white;
+    color: rgb(134, 44, 175);
     position: absolute;
     top: 0.5rem;
     right: 1rem;
@@ -12,7 +12,7 @@
 }
 
 .navbar-toggler:checked {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(138, 50, 197, 0.5);
 }
 
 .top-row {
@@ -60,7 +60,7 @@
     }
 
     .nav-item ::deep .nav-link {
-        color: #d7d7d7;
+        color: #d8c8e2;
         background: none;
         border: none;
         border-radius: 4px;

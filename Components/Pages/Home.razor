@@ -5,7 +5,7 @@
 <html>
     <div>
         <strong>
-            <h1>
+            <h1 style="border: 5px solid purple; border-radius: 10px; padding: 10px; background-color: white;">
                 The FMC group: Fully Modular Controller
             </h1>
         </strong>
@@ -19,6 +19,7 @@
             <h3>
                 Advisors Erin Keith, CSE Department; Doug Bookey, Office of Information Technology;
             </h3>
+            <hr {border : 2px solid purple; } />
             <p>
                 <h4>
                     Project Description:
@@ -29,22 +30,49 @@
                 connect to any system for any purpose, whether it be for videogames, or for robotic control where they can configure the physical layout of the controller to fit whatever 
                 purpose needed. 
             </p>
+            <hr {border : 2px solid purple; } />
+                <div>
+                    <iframe width="100%" height="auto" 
+                        src="https://www.youtube.com/" 
+                        title="Project Video" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            <hr {border : 2px solid purple; } />
             <div>
                 <p>
                     <h4>
                         References Section:
                     </h4>
                     <p>
-                    <li>[1] J. Blomberg, “Game studies,” Game Studies - Issue 18, 2018, https://gamestudies.org/1802/articles/blomberg .</li>
-                    <li>[2] D. Tan, “Game user experience evaluation,” Human–Computer Interaction Series, pp. 263–284, 2015. doi:10.1007/978-3-319-15985-0.</li>
-                    <li>[3] D. Hughes, “Game Design and control ergonomics,” Game Developer, https://www.gamedeveloper.com/design/game-design-and-control-ergonomics .</li>
-                    <li>[4] A. Lamothe, Black Art of 3D Game Programming. Waite Group Press, 1997.</li>
+                        <ul>
+                            <li>[1] J. Blomberg, “Game studies,” Game Studies - Issue 18, 2018, https://gamestudies.org/1802/articles/blomberg .</li>
+                            <li>[2] D. Tan, “Game user experience evaluation,” Human–Computer Interaction Series, pp. 263–284, 2015. doi:10.1007/978-3-319-15985-0.</li>
+                            <li>[3] D. Hughes, “Game Design and control ergonomics,” Game Developer, https://www.gamedeveloper.com/design/game-design-and-control-ergonomics .</li>
+                            <li>[4] A. Lamothe, Black Art of 3D Game Programming. Waite Group Press, 1997.</li>
+                        </ul>
                     </p>
                 </p>
             </div>
 
         </section>
+        <hr {border : 2px solid purple; } />
+        <h4></h4>
         <h6>This site is a -WORK IN PROGRESS- and will change over time.</h6>
         <h7>Hosted with love in Reno, NV by Bad Coder Dot Net</h7>
+        <hr {border : 2px solid purple; } />
+        <div>
+            <p>
+                <script>
+                    var startTime = new Date().getTime();
+                    window.onload = function () {
+                        var loadTime = (new Date().getTime() - startTime) / 1000;
+                        document.getElementById("load-time-display").innerText = loadTime + " seconds";
+                    };
+                    </script>
+                <p>Total load time: <span id="load-time-display"></span></p>
+            </p>
+            </div>
     </div>
 </html>
